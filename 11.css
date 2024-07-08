@@ -1,0 +1,195 @@
+/*通用类*/
+/* 初始化设置：去掉没必要的设置 */
+*{
+    margin:0;
+    padding:0;
+    list-style: none;
+    text-decoration:none;
+}
+body{
+    min-width:1000px;
+    margin:0 auto;
+    font-size:14px;
+    font-family:PingFang SC,Hiragino Sans GB,Microsoft YaHei UI,Microsoft YaHei,Source Han Sans CN,sans-serif;
+    background:#fff;
+    text-align:justify;
+    color:#010000;
+    position:relative;
+}
+img{
+    border:none;
+}
+/*wrapin主题宽度*/
+.wrapin{
+    width:1000px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+/*公用CSS开始*/
+
+/*header开始*/
+header{
+    background:orange;
+    line-height:60px;
+    padding:0 15px;
+    display: flex;
+    align-items: center;
+    justify-content:space-beteeen;
+}
+.logo{
+    color:#fff;
+    text-decoration:none;
+    font-size:22px;
+    font-weight:bold;
+    padding-right:80px;
+}
+
+header.nav li a{
+    color:#fff;
+}
+.nav li{
+    /* 通过左浮动，让列表变成横排 */
+    float:left;
+    height:30px;
+    width:120px;
+    line-height: 40px;
+    text-align:center;
+
+}
+.nav a{
+    color:white;
+    display:block;
+}
+.nav{
+    height:40px;
+    background-color: orange;
+}
+.nav a:hover{
+    background: bisque;
+}
+.button_1{
+    width:100px;
+    height:30px;
+    padding:20px 4px;
+    border-radius:70px;
+    margin:20px auto;
+    background-color: orange;
+    font-size:25px;
+    color:black;
+}
+.img3{ 
+    height:2000px;
+    width:1000px;
+    background: url('images/2.webp');
+    background-size: contain;
+    background-repeat: no-repeat;
+    color:#577fbc ;
+}
+.input{
+    width:300px;
+    height:50px;
+    border-radius:4px 4px 0 0;
+    border:1px solid #5c1818;
+    margin:50px auto 0;
+    padding:0 4px;
+    color:#573737;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+#login{
+    position:relative;
+    top:3%;
+    width:600px;
+    height:600px;
+    margin:0px auto 0;
+    padding:60px 50px 0px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius:4px;
+    box-shadow:0 0 8px
+    rgba(0, 0, 0, 0.53);
+    float:center;
+}
+.bottem{/*注册同意*/
+    font-family: 'Courier New','Courier New', Courier, monospace;
+    text-align: center;
+    font-size:13px;
+    color:#0f0c0c;
+    width:600px;
+    margin:10px 15px;
+}
+#login_header{
+    text-align:center;
+    font-family:Courier,monospace;
+    font-size:30px;
+    font-style:color=#ea6f5a;
+    margin:0px 30px 0px;
+    color: #000000;
+}
+.banner{
+    display:block;
+    
+}
+.banner img {
+	display: block;
+	width: 100%;
+}
+.title{
+    background: #577fbc;
+    line-height: 40px;
+    padding:0 15px;
+    margin: 20px 0;
+}
+.text_a{
+    line-height:28px;
+    color:#333;
+}
+
+.text_a img{
+    margin-left:15px;
+}
+footer{
+    background:orange;
+    line-height:40px;
+    margin:0 auto;
+    padding: 0px 15px;
+    text-align:center;
+    font-size:14px;
+    color:#fff;
+}
+.title h2{
+    color:#fff;
+    font-size:20px;
+}
+.rt{
+    float:right;
+    margin-left: 20px;
+}
+
+.clearfix::after{
+    content:"";
+    display:block;
+    clear:both;
+}
+.pic img{
+    width:30;
+    float: left;
+}
+.con_top .pic{
+    width:300px;
+    float:left;
+}
+.con_top .pic img{
+    width:100%;
+}
+.con_top .text{
+    float:right;
+    width:650px;
+    line-height:28px;
+    color:#333;
+}
+.in_com{
+    background: #f4f8ff;
+    padding:15px;
+    display:block;
+    
+}
